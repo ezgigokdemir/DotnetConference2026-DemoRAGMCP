@@ -1,0 +1,140 @@
+
+============================================================
+[15:16:54] Sprint planlaması sırasında ekip kapasitesi nasıl hesaplanır?
+  Embedding : 400.78 ms
+  Retrieval : 18.33 ms
+  LLM       : 1437.81 ms
+  Total     : 1856.92 ms
+
+============================================================
+[15:17:07] Teknik borç birikimini nasıl önlerim?
+  Embedding : 390.69 ms
+  Retrieval : 14.19 ms
+  LLM       : 2650.75 ms
+  Total     : 3055.63 ms
+
+============================================================
+[15:17:17] CI/CD pipeline'a güvenlik testleri nasıl eklenir?
+  Embedding : 473.01 ms
+  Retrieval : 10.8 ms
+  LLM       : 1131.91 ms
+  Total     : 1615.72 ms
+
+============================================================
+[15:17:45] Kanban'da WIP limitini nasıl belirlemeliyim?
+  Embedding : 472.92 ms
+  Retrieval : 11.98 ms
+  LLM       : 499.71 ms
+  Total     : 984.61 ms
+
+============================================================
+[15:17:52] Retrospektif toplantısı verimsiz geçiyorsa ne yapmalıyım?
+  Embedding : 428.04 ms
+  Retrieval : 9.73 ms
+  LLM       : 1362.57 ms
+  Total     : 1800.34 ms
+
+============================================================
+[15:17:58] Microservices mimarisine geçişte nelere dikkat edilmeli?
+  Embedding : 141.28 ms
+  Retrieval : 11.19 ms
+  LLM       : 456.96 ms
+  Total     : 609.43 ms
+
+============================================================
+[15:18:04] Story point tahminlerinde ekip uyuşmazsa ne yapılır?
+  Embedding : 522.47 ms
+  Retrieval : 11.75 ms
+  LLM       : 520.21 ms
+  Total     : 1054.43 ms
+
+============================================================
+[15:18:12] Product Owner olmayan bir projede backlog nasıl yönetilir?
+  Embedding : 489.42 ms
+  Retrieval : 8.39 ms
+  LLM       : 815.81 ms
+  Total     : 1313.62 ms
+
+============================================================
+[15:18:23] Definition of Done'ı nasıl oluştururum?
+  Embedding : 450.26 ms
+  Retrieval : 13.48 ms
+  LLM       : 3835.78 ms
+  Total     : 4299.52 ms
+
+============================================================
+[15:18:28] Remote ekiplerde daily scrum nasıl yapılmalı?
+  Embedding : 139.99 ms
+  Retrieval : 8.64 ms
+  LLM       : 2138.99 ms
+  Total     : 2287.62 ms
+
+============================================================
+[15:18:34] Teknik dokümantasyon için hangi format kullanılmalı?
+  Embedding : 143.24 ms
+  Retrieval : 8.89 ms
+  LLM       : 851.03 ms
+  Total     : 1003.16 ms
+
+============================================================
+[15:18:40] Proje risklerini nasıl önceliklendiririm?
+  Embedding : 422.25 ms
+  Retrieval : 13.25 ms
+  LLM       : 1352.9 ms
+  Total     : 1788.4 ms
+
+============================================================
+[15:18:50] Blue-green deployment ile canary release arasında nasıl seçim yapmalıyım?
+  Embedding : 260.29 ms
+  Retrieval : 8.59 ms
+  LLM       : 4311.6 ms
+  Total     : 4580.48 ms
+
+============================================================
+[15:18:56] Code review sürecini nasıl hızlandırabilirim?
+  Embedding : 147.06 ms
+  Retrieval : 11.24 ms
+  LLM       : 3802.38 ms
+  Total     : 3960.68 ms
+
+============================================================
+[15:19:01] Ekip velocity'si düşüyorsa ne yapmalıyım?
+  Embedding : 163.85 ms
+  Retrieval : 10.03 ms
+  LLM       : 1053.47 ms
+  Total     : 1227.35 ms
+
+============================================================
+[15:19:09] OKR'ları sprint hedefleriyle nasıl ilişkilendiririm?
+  Embedding : 508.84 ms
+  Retrieval : 12.52 ms
+  LLM       : 1327.32 ms
+  Total     : 1848.68 ms
+
+============================================================
+[15:19:16] Paydaş beklentileri çelişiyorsa nasıl yönetirim?
+  Embedding : 411.51 ms
+  Retrieval : 4.54 ms
+  LLM       : 1684.95 ms
+  Total     : 2101.0 ms
+
+============================================================
+[15:19:22] Test otomasyonuna nereden başlamalıyım?
+  Embedding : 151.5 ms
+  Retrieval : 16.48 ms
+  LLM       : 1308.97 ms
+  Total     : 1476.95 ms
+
+============================================================
+[15:19:28] Proje kapsamı sürekli büyüyorsa ne yapmalıyım?
+  Embedding : 144.17 ms
+  Retrieval : 10.59 ms
+  LLM       : 1456.58 ms
+  Total     : 1611.34 ms
+
+============================================================
+[15:19:36] Ekipte psikolojik güvenliği nasıl oluştururum?
+  Embedding : 145.06 ms
+  Retrieval : 13.55 ms
+  LLM       : 3246.89 ms
+  Total     : 3405.5 ms
