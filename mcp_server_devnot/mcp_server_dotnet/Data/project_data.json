@@ -1,0 +1,57 @@
+{
+  "sprints": [
+    {
+      "id": "SP-1",
+      "name": "Sprint 12",
+      "status": "active",
+      "start_date": "2025-04-14",
+      "end_date": "2025-04-28",
+      "goal": "Complete user authentication module",
+      "tasks": [
+        {"id": "T-101", "title": "Login page UI", "assignee": "Ahmet", "status": "done", "story_points": 3},
+        {"id": "T-102", "title": "JWT token implementation", "assignee": "Ayşe", "status": "in_progress", "story_points": 5},
+        {"id": "T-103", "title": "Password reset flow", "assignee": "Mehmet", "status": "todo", "story_points": 3},
+        {"id": "T-104", "title": "Unit tests for auth", "assignee": "Ahmet", "status": "in_progress", "story_points": 2},
+        {"id": "T-105", "title": "Security audit", "assignee": "Ayşe", "status": "todo", "story_points": 5}
+      ]
+    },
+    {
+      "id": "SP-2",
+      "name": "Sprint 11",
+      "status": "completed",
+      "start_date": "2025-03-31",
+      "end_date": "2025-04-13",
+      "goal": "Dashboard and reporting features",
+      "tasks": [
+        {"id": "T-091", "title": "Dashboard layout", "assignee": "Mehmet", "status": "done", "story_points": 5},
+        {"id": "T-092", "title": "Charts integration", "assignee": "Ahmet", "status": "done", "story_points": 3},
+        {"id": "T-093", "title": "Export to PDF", "assignee": "Ayşe", "status": "done", "story_points": 5},
+        {"id": "T-094", "title": "Filter functionality", "assignee": "Mehmet", "status": "done", "story_points": 2}
+      ]
+    }
+  ],
+  "velocity_history": [
+    {"sprint": "Sprint 8", "committed": 18, "completed": 15},
+    {"sprint": "Sprint 9", "committed": 20, "completed": 19},
+    {"sprint": "Sprint 10", "committed": 22, "completed": 18},
+    {"sprint": "Sprint 11", "committed": 15, "completed": 15},
+    {"sprint": "Sprint 12", "committed": 18, "completed": null}
+  ],
+  "backlog": [
+    {"id": "B-201", "title": "Email notification system", "priority": "high", "story_points": 8, "category": "Feature"},
+    {"id": "B-202", "title": "Role-based access control", "priority": "high", "story_points": 13, "category": "Feature"},
+    {"id": "B-203", "title": "API rate limiting", "priority": "medium", "story_points": 5, "category": "Technical"},
+    {"id": "B-204", "title": "Mobile responsive design", "priority": "medium", "story_points": 8, "category": "Feature"},
+    {"id": "B-205", "title": "Performance optimization", "priority": "low", "story_points": 5, "category": "Technical"},
+    {"id": "B-206", "title": "Dark mode support", "priority": "low", "story_points": 3, "category": "Feature"},
+    {"id": "B-207", "title": "Audit logging", "priority": "high", "story_points": 5, "category": "Technical"},
+    {"id": "B-208", "title": "Multi-language support", "priority": "medium", "story_points": 13, "category": "Feature"}
+  ],
+  "team": [
+    {"name": "Ahmet Yılmaz", "role": "Senior Developer", "skills": ["backend", "API", "testing"], "current_sprint_points": 5},
+    {"name": "Ayşe Kaya", "role": "Full Stack Developer", "skills": ["frontend", "backend", "security"], "current_sprint_points": 10},
+    {"name": "Mehmet Demir", "role": "Frontend Developer", "skills": ["frontend", "UI/UX", "mobile"], "current_sprint_points": 3},
+    {"name": "Zeynep Arslan", "role": "Scrum Master", "skills": ["agile", "facilitation", "coaching"], "current_sprint_points": 0},
+    {"name": "Can Öztürk", "role": "Product Owner", "skills": ["product", "backlog", "stakeholder"], "current_sprint_points": 0}
+  ]
+}
