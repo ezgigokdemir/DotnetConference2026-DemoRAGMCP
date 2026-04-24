@@ -19,7 +19,14 @@ public class ProjectTools
         [Description("Sprint ID (e.g. 'SP-1'), sprint name (e.g. 'Sprint 11'), or 'active' for current sprint.")]
         string sprintId = "active")
     {
-        return _projectService.GetSprintStatus(sprintId);
+        try
+        {
+            return _projectService.GetSprintStatus(sprintId);
+        }
+        catch (Exception ex)
+        {
+            return new { success = false, error = ex.Message, stackTrace = ex.StackTrace };
+        }
     }
 
     [McpServerTool, Description("Returns the team's velocity history and average story points per sprint.")]

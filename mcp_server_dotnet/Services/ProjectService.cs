@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using System.Text.Json;
-using PmMcpServer.Data;
 
 namespace PmMcpServer.Services;
 
@@ -8,27 +7,22 @@ public class ProjectService
 {
     private readonly ProjectData _data;
     private static readonly string LogFile = Path.Combine(
-        Directory.GetCurrentDirectory(), "benchmark_results.txt");
+        AppContext.BaseDirectory, "benchmark_results.txt");
 
     public ProjectService()
     {
-        var path = Path.Combine(
-            AppContext.BaseDirectory, "Data", "project_data.json");
+        var path = Path.Combine(AppContext.BaseDirectory, "Data", "project_data.json");
     
         if (!File.Exists(path))
-        {
-            // fallback: proje dizini
-            path = Path.Combine(
-                Directory.GetCurrentDirectory(), "Data", "project_data.json");
-        }
+            throw new FileNotFoundException($"Data file not found: {path}");
     
         var json = File.ReadAllText(path);
         var options = new JsonSerializerOptions
         {
-            PropertyNameCaseInsensitive = true,
-            PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
+            PropertyNameCaseInsensitive = true
         };
-        _data = JsonSerializer.Deserialize<ProjectData>(json, options)!;
+        _data = JsonSerializer.Deserialize<ProjectData>(json, options)
+                ?? throw new InvalidOperationException("Failed to deserialize project data");
     }
 
     private void Log(string toolName, double executionMs)
